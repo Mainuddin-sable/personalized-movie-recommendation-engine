@@ -1,0 +1,167 @@
+
+/* =========================================
+   PREMIUM MOVIE RECOMMENDATION DASHBOARD
+   ========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --background: #0b0d14;
+    --surface: #141824;
+    --surface-light: #1c2232;
+    --primary: #8667ff;
+    --secondary: #a18aff;
+    --text: #f5f5fa;
+    --muted: #9ba3b7;
+    --border: rgba(255,255,255,0.08);
+}
+
+.stApp {
+    background: var(--background);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+}
+
+header[data-testid="stHeader"] {
+    background: transparent;
+}
+
+.block-container {
+    max-width: 1400px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #111522;
+    border-right: 1px solid var(--border);
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: var(--text) !important;
+    font-weight: 700 !important;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(
+        120deg,
+        #242044,
+        #171c31 60%,
+        #30204a
+    );
+    padding: 38px;
+    border-radius: 22px;
+    border: 1px solid var(--border);
+    margin-bottom: 28px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #c3c4d5;
+    font-size: 16px;
+}
+
+/* Metric cards */
+.metric-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 22px;
+    border-radius: 16px;
+}
+
+.metric-label {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.metric-value {
+    color: var(--text);
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+
+/* Movie cards */
+.movie-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 16px;
+    min-height: 155px;
+    transition: 0.25s ease;
+    margin-bottom: 14px;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+    background: var(--surface-light);
+}
+
+.movie-title {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.movie-genre {
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.movie-score {
+    color: #b7a5ff;
+    font-size: 13px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(
+        90deg,
+        #7657ee,
+        #9878ff
+    );
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: #a18aff;
+    color: white;
+    border: none;
+}
+
+/* Inputs */
+.stTextInput input,
+.stSelectbox div[data-baseweb="select"] {
+    background: var(--surface);
+    border-color: var(--border);
+    border-radius: 10px;
+}
+
+/* Dividers */
+hr {
+    border-color: var(--border);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: var(--muted);
+    padding: 30px 0;
+    font-size: 12px;
+}
