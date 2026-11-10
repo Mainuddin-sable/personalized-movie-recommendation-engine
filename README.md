@@ -80,7 +80,7 @@ These results represent the current experimental performance of the system.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Mainuddin-sable/personalized-movie-recommendation-engine.git
 ```
 
 ### 2. Navigate to the project folder
@@ -127,9 +127,7 @@ Recommendation_Engine/
 │
 ├── models/
 │   └── recommendation_engine.pkl
-│
-└── results/
-    └── algorithm_comparison.csv
+
 ```
 
 
