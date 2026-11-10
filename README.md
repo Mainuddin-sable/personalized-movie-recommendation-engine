@@ -137,3 +137,9 @@ Recommendation_Engine/
 - Experiment with advanced recommendation algorithms.
 - Add movie posters and additional movie information.
 - Deploy the application online.
+
+## Live Demo
+
+Try the application here:
+
+[Open CineMatch Movie Recommendation Engine](https://personalized-movie-recommendation-engine-2g7t3rrpdhltegu4n2yyj.streamlit.app/)
